@@ -1,4 +1,4 @@
-# IMACHINE
+# I-MACHINE
 A State Machine Framework
 
 # Overall
