@@ -1,0 +1,8 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
+
+SET (SOURCE_FILES ./fsme.c)
+
+include_directories("${PROJECT_SOURCE_DIR}/fsme/header")
+
+ADD_LIBRARY(imachine-static STATIC ${SOURCE_FILES})
+ADD_LIBRARY(imachine-dyn SHARED ${SOURCE_FILES})
